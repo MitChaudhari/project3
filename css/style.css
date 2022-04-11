@@ -3,11 +3,13 @@
     font-size: 20px;
     overflow: hidden;
 }
+
 #navbar-container{
     float: left;
     width:100%;
     position: relative;
 }
+
 #navbar-container ul{
     list-style-type: none;
     margin:0;
@@ -16,12 +18,14 @@
     left:50%;
     float: left;
 }
+
 #navbar-container ul li{
     float:left;
     position:relative;
     right:50%;
     display:block;
 }
+
 #navbar-container ul li a{
     display:block;
     padding:20px 50px;
@@ -31,16 +35,16 @@
 #navbar-container  li :hover{
     background-color:rgb(170, 160, 68);
 }
+
 #onpage{
     text-decoration: underline overline;
 }
-
-
 
 #index-body {
     background-color: lightblue;
     
 }
+
 #index-title{
     text-align: center;
     font-family: 'Sansita Swashed', cursive;
@@ -48,6 +52,7 @@
     padding:10px 25px;
     
 }
+
 .section-title{
     font-family: 'Red Hat Mono', monospace;
     color: rgb(0, 0, 0);
@@ -73,19 +78,21 @@ ul{
     text-indent: 0.3cm;
     font-weight: bold;
 }
+
 #s1{
     font-family: 'Inconsolata', monospace;
     font-size: large;
     text-indent: 0.3cm;
     font-weight: bold;
 }
-  #india-title{
+
+#india-title{
     font-family: 'Gloria Hallelujah', cursive;
     text-align: center;
     padding:10px 25px;
     background-color: rgb(195, 217, 236);
-  }
-  .ind-title{
+}
+.ind-title{
     font-family: 'Merienda', cursive;
     text-align: center;
     color: azure;
@@ -93,31 +100,32 @@ ul{
     font-weight:bold;
     padding:10px 25px;
     font-size: 30px;
-  }
-  .para-sty{
+}
+.para-sty{
     font-family: 'Josefin Sans', sans-serif;
     color: #ecbf7c;
     padding: 50px;
     font-size: 20px;
     width: 300px;
     margin: 20px;
-    border:15px#d3ab61;
-    font-size: 22px;
-  }
-  img{
-      border-radius:8px ;
-      height: 500px;
-      vertical-align:bottom;
-     
-  }
-  span{
-      display: inline-block;
-  }
+    border:15px #d3ab61;
+    font-size:22px;
+}
 
-  
+img{
+    border-radius:8px ;
+    height: 500px;
+    vertical-align:bottom;
+}
+
+span{
+      display: inline-block;
+}
+
 #india-body{
     background-color: rgb(0, 0, 0);
 }
+
 body{
     background-color: antiquewhite;
 }
@@ -131,18 +139,21 @@ body{
     font-family: 'Red Hat Mono', monospace;
     text-align: center;
 }
+
 #histroy{
     background-color: #3D9970;
     font-family: 'Josefin Sans', sans-serif;
     font-weight:bold;
     text-align: center;
 }
+
 #marketing{
     background-color: lightgrey;
     font-family: 'Josefin Sans', sans-serif;
     font-weight:bold;
     text-align: center;
 }
+
 #seal{
     background-color: lightcoral;
     font-family: 'Josefin Sans', sans-serif;
@@ -156,9 +167,9 @@ body{
     text-align: center;
 }
 iframe{
-animation-play-state: running;
-
+    animation-play-state: running;
 }
+
 footer {
     font-family: 'Sansita Swashed', cursive;
     background-color: antiquewhite;
@@ -166,4 +177,149 @@ footer {
     padding: 10px;
     font-size: 22px;
     font-weight:bold;
-  }
+}
+@media only screen and (max-width: 720px){
+    body{ background:green;}
+    #navbar-container ul li a{
+        display:block;
+        padding:10px 25px;
+        color: rgb(18, 34, 177);
+        text-decoration: none;
+    }
+
+    #nin-title{
+        font-family: 'Sansita Swashed', cursive;
+        text-align: center;
+        background-color: #000000;
+        color:white;
+        font-size: medium;
+    }
+
+    .nin-sub{
+        font-family: 'Red Hat Mono', monospace;
+        text-align: center;
+        font-size: medium;
+    }
+
+    #histroy{
+        background-color: white;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight:bold;
+        text-align: center;
+        font-size: small;
+    }
+
+    #marketing{
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight:bold;
+        text-align: center;
+        font-size: small;
+        background-color: #000000;
+        color:white;
+    }
+
+    #seal{
+        background-color: lightcoral;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight:bold;
+        text-align: center;
+        font-size: small;
+        background-color: white;
+        color:rgb(0, 0, 0);
+    }
+
+    #summary{
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight:bold;
+        text-align: center;
+        font-size: small;
+        background-color: #000000;
+        color:white;
+    }
+
+   .im-size{
+        width: 350px;
+        height: auto;
+    }
+
+    footer{
+        font-family: 'Sansita Swashed', cursive;
+        background-color: antiquewhite;
+        text-align: center;
+        font-size: medium;
+        font-weight:bold;
+        display:block;
+        padding:10px 10px;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    body{ 
+      background:red;
+    }
+  #navbar-container ul li a{
+    display:block;
+    padding:5px 10px;
+    color: rgb(18, 34, 177);
+    text-decoration: none;
+    font-size: small;
+    }
+#nin-title{
+    font-family: 'Red Hat Mono', monospace;
+    text-align: center;
+    background-color: #000000;
+    color:aliceblue;
+    font-size: small;
+    }
+.nin-sub{
+    font-family: 'Red Hat Mono', monospace;
+    text-align: center;
+    font-size: small;
+    }
+#histroy{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight:bold;
+    text-align: center;
+    font-size: x-small;
+    color:black;
+    background-color: lightslategray;
+    }
+#marketing{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight:bold;
+    text-align: center;
+    font-size: x-small;
+    color:black;
+    background-color: lightseagreen;
+    }
+#seal{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight:bold;
+    text-align: center;
+    font-size: x-small;
+    color:black;
+    background-color: lightpink;
+    }
+#summary{
+    background-color: aliceblue;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight:bold;
+    text-align: center;
+    font-size: x-small;
+    background-color: #000000;
+    color:aliceblue;
+    }
+.im-size{
+   width: 250px;
+   height: auto;
+    }
+footer {
+    font-family: 'Sansita Swashed', cursive;
+    background-color: antiquewhite;
+    text-align: center;
+    font-size: medium;
+    font-weight:bold;
+    display:block;
+    padding:5px 5px;
+    }
+}
