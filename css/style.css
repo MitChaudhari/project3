@@ -184,57 +184,37 @@ footer {
   background:green;
  }
  #navbar-container ul li a{
-  display:block;
   padding:10px 25px;
-  color: rgb(18, 34, 177);
-  text-decoration: none;
  }
 
-  #nin-title{
-  font-family: 'Sansita Swashed', cursive;
-  text-align: center;
+ #nin-title{
   background-color: #000000;
   color:white;
   font-size: medium;
  }
 
-  .nin-sub{
-  font-family: 'Red Hat Mono', monospace;
-  text-align: center;
+ .nin-sub{
   font-size: medium;
  }
 
  #histroy{
   background-color: white;
-  font-family: 'Josefin Sans', sans-serif;
-  font-weight:bold;
-  text-align: center;
   font-size: small;
  }
 
  #marketing{
-  font-family: 'Josefin Sans', sans-serif;
-  font-weight:bold;
-  text-align: center;
   font-size: small;
   background-color: #000000;
   color:white;
  }
 
  #seal{
-  background-color: lightcoral;
-  font-family: 'Josefin Sans', sans-serif;
-  font-weight:bold;
-  text-align: center;
   font-size: small;
   background-color: white;
   color:rgb(0, 0, 0);
  }
 
  #summary{
-  font-family: 'Josefin Sans', sans-serif;
-  font-weight:bold;
-  text-align: center;
   font-size: small;
   background-color: #000000;
   color:white;
@@ -246,12 +226,7 @@ footer {
  }
 
  footer{
-  font-family: 'Sansita Swashed', cursive;
-  background-color: antiquewhite;
-  text-align: center;
   font-size: medium;
-  font-weight:bold;
-  display:block;
   padding:10px 10px;
  }
 }
@@ -262,59 +237,39 @@ footer {
  }
 
  #navbar-container ul li a{
-  display:block;
   padding:5px 10px;
-  color: rgb(18, 34, 177);
-  text-decoration: none;
   font-size: small;
  }
 
  #nin-title{
-  font-family: 'Red Hat Mono', monospace;
-  text-align: center;
   background-color: #000000;
-  color:aliceblue;
+  color:white;
   font-size: small;
  }
 
  .nin-sub{
-  font-family: 'Red Hat Mono', monospace;
-  text-align: center;
   font-size: small;
  }
 
  #histroy{
-  font-family: 'Josefin Sans', sans-serif;
-  font-weight:bold;
-  text-align: center;
   font-size: x-small;
   color:black;
   background-color: lightslategray;
  }
 
  #marketing{
-  font-family: 'Josefin Sans', sans-serif;
-  font-weight:bold;
-  text-align: center;
   font-size: x-small;
   color:black;
   background-color: lightseagreen;
  }
 
  #seal{
-  font-family: 'Josefin Sans', sans-serif;
-  font-weight:bold;
-  text-align: center;
   font-size: x-small;
   color:black;
   background-color: lightpink;
  }
 
  #summary{
-  background-color: aliceblue;
-  font-family: 'Josefin Sans', sans-serif;
-  font-weight:bold;
-  text-align: center;
   font-size: x-small;
   background-color: #000000;
   color:aliceblue;
@@ -326,13 +281,8 @@ footer {
 }
 
  footer {
-  font-family: 'Sansita Swashed', cursive;
-  background-color: antiquewhite;
-  text-align: center;
-  font-size: medium;
-  font-weight:bold;
-  display:block;
-  padding:5px 5px;
+  font-size: small;
+  padding:0px 0px;
  }
 }
 
