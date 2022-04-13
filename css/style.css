@@ -187,15 +187,12 @@ footer {
  background-color: #000000;
  top:10cm;
 }
-#content{
- font-family: 'Sansita Swashed', cursive;
- font-size: x-large;
+#h-2{
  text-align: center;
- position: relative;
- color: red;
- background-color: #000000;
- bottom: 1in;
+ font-family: 'Inconsolata', monospace;
+ top: 10cm;
 }
+
 
 @media only screen and (max-width: 720px){
  #nin1{ 
