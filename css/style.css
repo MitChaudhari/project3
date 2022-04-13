@@ -123,15 +123,18 @@ span{
 #india-body{
  background-color: rgb(0, 0, 0);
 }
-
-body{
+#india-body{
  background-color: antiquewhite;
 }
+
 #nin-title{
  font-family: 'Sansita Swashed', cursive;
  text-align: center;
  background-color: #d3ab61;
  padding: 2%;
+}
+#nin1{
+ background-color: antiquewhite;
 }
 .nin-sub{
  font-family: 'Red Hat Mono', monospace;
@@ -178,9 +181,26 @@ footer {
  font-size: 22px;
  font-weight:bold;
 }
+#h-1{
+ font-family: 'Gloria Hallelujah', cursive;
+ font-weight:bold;
+ text-align: center;
+ color:coral;
+ background-color: #000000;
+ top:10cm;
+}
+#content{
+ font-family: 'Sansita Swashed', cursive;
+ font-size: x-large;
+ text-align: center;
+ position: relative;
+ color: red;
+ background-color: #000000;
+ bottom: 1in;
+}
 
 @media only screen and (max-width: 720px){
- body{ 
+ #nin1{ 
   background:green;
  }
  #navbar-container ul li a{
@@ -232,7 +252,7 @@ footer {
 }
 
 @media only screen and (max-width: 500px){
- body{ 
+ #nin1{ 
   background:red;
  }
 
@@ -246,6 +266,7 @@ footer {
   color:white;
   font-size: small;
  }
+
 
  .nin-sub{
   font-size: small;
@@ -289,12 +310,14 @@ footer {
  /* Always set the map height explicitly to define the size of the div
  * element that contains the map. */
 #map {
- height: 100%;
+ width: 600px;
+  height: 550px;
+  margin: 100px auto;
+}
+body{
+ background-color: #3D9970;
 }
 
 /* Optional: Makes the sample page fill the window. */
-html, body {
- height: 100%;
- margin: 0;
- padding: 0;
-}
+
+

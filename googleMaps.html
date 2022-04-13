@@ -4,14 +4,15 @@
     <title>Google Maps</title>
     <meta name="viewport" content="initial-scale=1.0">
     <meta charset="utf-8">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
     <link rel="stylesheet" href="css/style.css">
     <script src="jsCode/maps.js"></script>
-    <script
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDcD21LhGOtZ0sxnAevyIUlR5iqrXH4cVI&callback=initMap" async defer>
-</script>
+    <script async
+    src="https://maps.googleapis.com/maps/api/js?v=beta&key=AIzaSyDcD21LhGOtZ0sxnAevyIUlR5iqrXH4cVI&callback=initMap" >
+   </script>
   </head>
 
-  <body>
+  <body class="j1">
     <header>
         <nav id="main-navbar">
           <div id="navbar-container">
@@ -24,6 +25,8 @@
           </div>
         </nav>
      </header>
-    <div id="map"></div>
+     <h1 id="h-1">Welcome to IIT Google Maps!!!</h1>
+     <div id="map" class="map"></div>
+     <div id="content">Click The Location Sysmbol for Info!</div>
   </body>
 </html>
