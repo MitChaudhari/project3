@@ -5,6 +5,8 @@
     <title>Project 2: India</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/normalize.css">
+    <script src="jsCode/slider.js"></script>
+    <link rel="stylesheet" href="css/slider.css">
   </head>
 
   <body id="india-body">
@@ -69,11 +71,38 @@
         known as langar, which is served to 50,000 people by hundreds of volunteers every day. 
       </span>
     </section>
+    <div class="slidercontainer">  
+      <div class="showSlide fade">  
+          <img src="images/img1.png" />  
+          <div class="content"></div>  
+      </div>  
+      <div class="showSlide fade">  
+          <img src="images/img2.png"/>  
+          <div class="content"></div>  
+      </div>  
+
+      <div class="showSlide fade">  
+          <img src="images/img3.png"/>  
+          <div class="content"></div>  
+      </div>  
+      <div class="showSlide fade">  
+          <img src="images/img4.png"/>  
+          <div class="content"></div>  
+      </div>  
+      <!-- Navigation arrows -->  
+      <a class="left" onclick="nextSlide(-1)">&#10094;</a>  
+      <a class="right" onclick="nextSlide(1)">&#10095;</a>  
+  </div>
     <footer>
+      <p id="f1"> Click the red arrow on left or right & Enjoy the slideshow! 😄 </p>
       <p>Created By: Mitansh Chaudhari</p>
       <p><a href="mailto:mchaudhari1@hawk.iit.edu">Email me for any concern or question, Thank You </a></p>
       <p><a href="https://globalgrasshopper.com/destinations/asia/top-10-places-to-visit-in-india/">My Resources</a></p>
     </footer>
+      
+
+
+
   </body>
 
 </html>
