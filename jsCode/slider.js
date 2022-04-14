@@ -1,4 +1,3 @@
-
 var slide_index = 1;  
 displaySlides(slide_index);  
 function nextSlide(n) {  
